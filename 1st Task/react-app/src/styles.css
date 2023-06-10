@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--random-color);
+  animation: colorAnimation 3s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.color-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  position: absolute;
+  background-color: #162938;
+  color: #ffffff;
+  font-size: x-large;
+  height: 100px;
+  width: 350px;
+  border: 5px solid #000000;
+  border-radius: 13px;
+}
